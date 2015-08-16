@@ -4,9 +4,9 @@
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
-	<classpathentry kind="lib" path="C:/Users/Thomas/Desktop/Selenium Java/Apache POI/poi-3.12/poi-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Thomas/Desktop/Selenium Java/Apache POI/poi-3.12/poi-ooxml-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Thomas/Desktop/Selenium Java/Apache POI/poi-3.12/poi-ooxml-schemas-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Thomas/Desktop/Selenium Java/Apache POI/poi-3.12/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/save/thomas/job/computer/webserver rest/Apache POI/poi-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/save/thomas/job/computer/webserver rest/Apache POI/poi-ooxml-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/save/thomas/job/computer/webserver rest/Apache POI/poi-ooxml-schemas-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/save/thomas/job/computer/webserver rest/Apache POI/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
