@@ -6,9 +6,7 @@ Purpose:	My library
 
 package lib;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import com.google.gson.Gson;
@@ -52,11 +50,4 @@ public class MyJSON {
 		data = convertMap(JSONstr);
 		return data.get(key);
 	}
-
-	/*
-	public List<String> getAllValues(String JSONstr, String key) {
-		List<String> values	= new ArrayList<String>();
-		return values;
-	}
-	*/
 }
