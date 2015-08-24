@@ -7,6 +7,8 @@ Requires: FROM: Apache POI - https://poi.apache.org/download.html
 	poi-ooxml-3.12-20150511.jar
 	poi-ooxml-schemas-3.12-20150511.jar
 	xmlbeans-2.6.0.jar
+	
+You can also use JExcelApi - http://jexcelapi.sourceforge.net/
 =========================================================================== */
 
 package lib;
