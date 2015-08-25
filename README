@@ -1,0 +1,34 @@
+
+                          Java & REST
+
+  What is it?
+  -----------
+  The project connects to the tweeter REST API, Application-only authentication,
+  and download the last 50 tweets of a tweeter user.
+
+
+  The Latest Version
+  ------------------
+  https://github.com/yes4me?tab=repositories
+
+
+  Documentation
+  -------------
+  Explication of the code is: https://www.youtube.com/watch?v=E8EYDH_KY6s
+
+  Additional explication can be found at tweeter REST API:
+  https://dev.twitter.com/oauth/application-only
+  https://dev.twitter.com/rest/reference/get/statuses/user_timeline
+
+
+  Installation
+  ------------
+  Install Java JDK
+  Install Eclipse Java EE IDE for Web Developers
+  Install Gradle plugin in Eclipse
+  Run Twitter.java
+
+
+  Contacts
+  --------
+  Author:	Thomas Nguyen - thomas_ejob@hotmail.com

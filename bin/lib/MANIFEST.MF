@@ -1,0 +1,3 @@
+Manifest-Version 1.0
+Main-Class com.thomas.MyApp
+Class-Path. libjcommon-1.0.6.jar libitext-1.4.6.jar

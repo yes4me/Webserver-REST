@@ -5,6 +5,7 @@ Purpose:	Download the last "TWITTER_COUNT" tweets from "TWITTER_USER"
 Inspiration for tweets:
 	https://dev.twitter.com/oauth/application-only
 	https://dev.twitter.com/rest/public/timelines
+	https://dev.twitter.com/rest/reference/get/statuses/user_timeline
 =========================================================================== */
 
 package edu.ucsc.extension.rest;
