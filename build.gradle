@@ -1,20 +1,51 @@
 apply plugin: 'java'
 
 repositories {
-  mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
-  testCompile 'junit:junit:4.12'
-  testCompile 'org.apache.httpcomponents:httpclient:4.5'
-  testCompile 'org.apache.httpcomponents:fluent-hc:4.5'
-  testCompile 'commons-codec:commons-codec:1.10'
-  testCompile 'com.google.code.gson:gson:2.3.1'
-  testCompile 'com.fasterxml.jackson.core:jackson-core:2.6.0'
-    
+	//Without that line: Recompile with -Xlint:unchecked for details
+	compile fileTree(dir: 'lib', include: ['*.jar'])
+	testCompile 'junit:junit:4.12'
+	testCompile 'org.seleniumhq.selenium:selenium-java:2.45.0'
+	testCompile 'commons-io:commons-io:2.4'
+
+	testCompile 'org.apache.httpcomponents:httpclient:4.5'
+	testCompile 'org.apache.httpcomponents:fluent-hc:4.5'
+	testCompile 'commons-codec:commons-codec:1.10'
+	testCompile 'com.google.code.gson:gson:2.3.1'
 }
+
 
 test {
-  testLogging.showStandardStreams = true
+	//makes the standard streams (err and out) visible at console when running tests
+	testLogging.showStandardStreams = true
+	jvmArgs '-Dtmp.dir=' + project.buildDir
 }
 
+
+task httpget(type: Test, dependsOn: testClasses) {
+	testLogging.showStandardStreams = true
+	include '**/HttpGet*'
+}
+
+task httppost(type: Test, dependsOn: testClasses) {
+	testLogging.showStandardStreams = true
+	include '**/HttpPost*'
+}
+
+task fluent(type: Test, dependsOn: testClasses) {
+	testLogging.showStandardStreams = true
+	include '**/Fluent*'
+}
+
+task customrh(type: Test, dependsOn: testClasses) {
+	testLogging.showStandardStreams = true
+	include '**/ClientWithResponse*'
+}
+
+task tweet(type: Test, dependsOn: testClasses) {
+	testLogging.showStandardStreams = true
+	include '**/TwitterApi*'
+}
