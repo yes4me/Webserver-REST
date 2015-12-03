@@ -6,6 +6,6 @@
 	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/save/thomas/job/computer/OTHERS/java lib/Selenium/selenium-java-2.47.1.jar"/>
-	<classpathentry kind="lib" path="C:/save/thomas/job/computer/OTHERS/java lib/Selenium/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="C:/save/thomas/job/computer/OTHERS/java lib/Selenium/selenium-server-standalone-2.48.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
